@@ -25,7 +25,7 @@ Prerequisites
 Installation
 - Clone the repository:
 
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/zuhorer/mlflow_model_tracking.git
 
 - Navigate to the project directory:
 
