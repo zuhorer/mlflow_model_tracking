@@ -1,0 +1,15 @@
+version: '3'
+services:
+  flask-app:
+    build:
+      context: ./flask_app
+      dockerfile: Dockerfile-flask
+    ports:
+      - "3000:3000"
+
+  mlflow-server:
+    build:
+      context: ./mlflow_server
+      dockerfile: Dockerfile-mlflow
+    ports:
+      - "5001:5000"

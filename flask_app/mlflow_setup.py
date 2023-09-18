@@ -2,6 +2,8 @@ import mlflow
 import mlflow.sklearn
 from train_model import train_and_save_model
 
+mlflow.set_tracking_uri("http://mlflow-server:5000")
+
 
 counter = 0  # Initialize a counter
 model_name = "demo"
